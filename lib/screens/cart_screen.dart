@@ -73,7 +73,9 @@ class CartScreen extends StatelessWidget {
                           children: [
                             Text("Shipping Fee", style: AppStyles.sec16400),
                             Text(
-                              shippingFee.floor().toString(),
+                              shippingFee == 0
+                                  ? "FREE"
+                                  : shippingFee.floor().toString(),
                               style: AppStyles.green14600,
                             ),
                           ],
