@@ -11,6 +11,18 @@ class AppStyles {
     fontWeight: FontWeight.w600,
   );
 
+  static final TextStyle main16400 = GoogleFonts.inter(
+    color: AppColors.mainTextColor,
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+  );
+
+  static final TextStyle main14400 = GoogleFonts.inter(
+    color: AppColors.mainTextColor,
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+  );
+
   static final TextStyle main16500 = GoogleFonts.inter(
     color: AppColors.mainTextColor,
     fontSize: 16,
@@ -57,5 +69,11 @@ class AppStyles {
     color: AppColors.greenColor,
     fontSize: 14,
     fontWeight: FontWeight.w600,
+  );
+
+  static final TextStyle white18500 = GoogleFonts.inter(
+    color: AppColors.white,
+    fontSize: 18,
+    fontWeight: FontWeight.w500,
   );
 }

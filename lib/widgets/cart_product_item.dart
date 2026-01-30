@@ -46,7 +46,12 @@ class CartProductItem extends StatelessWidget {
                   crossAxisAlignment: .start,
                   children: [
                     Text(product.brand, style: AppStyles.main16600),
-                    Text(product.title, style: AppStyles.main12400),
+                    Text(
+                      product.title,
+                      style: AppStyles.main12400,
+                      maxLines: 2,
+                      overflow: .ellipsis,
+                    ),
                     Text("EGP ${product.price.floor()}"),
                   ],
                 ),

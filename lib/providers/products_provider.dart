@@ -21,6 +21,7 @@ class ProductsProvider extends ChangeNotifier {
     selectedProducts.remove(product);
     productsCount -= product.amount;
     totalPrice -= product.price * product.amount;
+    product.amount = 0;
     notifyListeners();
   }
 

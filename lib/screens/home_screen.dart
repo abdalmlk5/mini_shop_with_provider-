@@ -54,6 +54,48 @@ class HomeScreen extends StatelessWidget {
       rate: "4.5 (132 reviews)",
       price: 1899,
     ),
+    ProductModel(
+      image: AppAssets.product1Image,
+      title: "Samsung 65-Inch Neo QLED 4K Smart TV QA6...",
+      brand: "Samsung",
+      rate: "4.5 (132 reviews)",
+      price: 32899,
+    ),
+    ProductModel(
+      image: AppAssets.product2Image,
+      title: "Apple 2025 MacBook Air 13-inch Laptop with....",
+      brand: "Apple",
+      rate: "4.5 (132 reviews)",
+      price: 51000,
+    ),
+    ProductModel(
+      image: AppAssets.product3Image,
+      title: "POLAR Ignite 3 GPS Smartwatch iPhone ....",
+      brand: "Polar Ignite",
+      rate: "4.5 (132 reviews)",
+      price: 19500,
+    ),
+    ProductModel(
+      image: AppAssets.product4Image,
+      title: "Soundcore by Anker Life Q30 Hybrid Active Noise...",
+      brand: "Anker",
+      rate: "4.5 (132 reviews)",
+      price: 3950,
+    ),
+    ProductModel(
+      image: AppAssets.product5Image,
+      title: "HONOR 400 5G Smartphone, 200MP AI ....",
+      brand: "Honor",
+      rate: "4.5 (132 reviews)",
+      price: 21999,
+    ),
+    ProductModel(
+      image: AppAssets.product6Image,
+      title: "JBL Go 4 Portable Bluetooth Speaker with I...",
+      brand: "JBL",
+      rate: "4.5 (132 reviews)",
+      price: 1899,
+    ),
   ];
 
   HomeScreen({super.key});
